@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Overpass:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-font-color: hsl(0, 0%, 100%);
+  --main-font-color: hsl(217, 12%, 63%);
+  --medium-btn-color: hsl(216, 12%, 54%);
+  --primary-color: hsl(25, 97%, 53%);
+  --dark-background: hsl(216, 12%, 8%);
+  --light-background: hsl(213, 19%, 18%);
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 375px;
+  height: 500px;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  border-radius: 15px;
+}
+
+.main-container {
+  padding: 10%;
+}
+
+.img-container {
+  margin-bottom: 30px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 15px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.img-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-container-1 h1 {
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.number-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 45px;
+  padding: 15px;
+  background-color: var(--light-background);
+  border-radius: 50%;
+  color: var(--main-font-color);
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: var(--light-font-color);
+}
+
+.btn:hover {
+  background-color: var(--medium-btn-color);
+  color: var(--light-font-color);
+}
+
+.btn:focus {
+  background-color: var(--primary-color);
+  color: var(--light-font-color);
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: var(--light-font-color);
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  border-radius: 30px;
+}
+
+.submit:hover {
+  background-color: var(--light-font-color);
+  color: var(--primary-color);
+}
+
+.submit:active {
+  background-color: var(--primary-color);
+  color: var(--light-font-color);
+}
+
+.selection {
+  background-color: var(--light-background);
+  margin: 0 auto;
+  width: 175px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.selection p {
+  color: var(--primary-color);
+  text-align: center;
+  
+}
+.text-container-2 {
+   text-align: center;
+  font-weight: 700;
+}
+
+.text-container-2 h1 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: var(--light-font-color)
+}

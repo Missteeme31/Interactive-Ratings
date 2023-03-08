@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Review Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--FIRST CARD PAGE-->
+    <main class="main-1">
+      <div class="container">
+        <div class="main-container">
+          <div class="img-container">
+            <img
+              src="https://cdn.glitch.global/850078c4-916c-42f0-b091-366dc2a3fa03/icon-star.svg?v=1674676649508"
+              alt="star"
+            />
+          </div>
+          <div class="text-container-1">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="number-container">
+              <a href="#"><button class="btn rate">1</button></a>
+              <a href="#"><button class="btn rate">2</button></a>
+              <a href="#"><button class="btn rate">3</button></a>
+              <a href="#"><button class="btn rate">4</button></a>
+              <a href="#"><button class="btn rate">5</button></a>
+            </div>
+            <button class="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--SECOND CARD PAGE-->
+    <main class="main-2 hidden">
+      <div class="container">
+        <div class="main-container">
+          <div class="img-container-2">
+            <img
+              src="https://cdn.glitch.global/850078c4-916c-42f0-b091-366dc2a3fa03/illustration-thank-you.svg?v=1674676660245"
+              alt="payment-machine"
+            />
+          </div>
+          <div class="selection">
+            <p>You selected <span id="num-choice"></span> out of 5</p>
+          </div>
+          <div class="text-container-2">
+            <h1>Thank you!</h1>
+            <p>
+              We appreciate you taking the time to give a rating. if you ever
+              need more support, don't hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
